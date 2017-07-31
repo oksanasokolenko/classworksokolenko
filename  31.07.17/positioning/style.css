@@ -1,0 +1,118 @@
+.wrap {
+    margin: 0;
+    padding: 0;
+    border: 3px solid blue;
+    font-family: sans-serif;
+    height: 300px;
+    width: 950px;
+    box-sizing: border-box;
+
+}
+
+.blue-cube-1, .blue-cube-2, .blue-cube-3, .blue-cube-4, .blue-cube-5 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: blue;
+}
+
+
+.first-block {
+    padding: 10px 0;
+    margin: 10px 0;
+    border-right: 1px solid blue;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+
+
+
+}
+
+.blue-cube-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+.header-1 h1 {
+    position: absolute;
+    top: 49px;
+    left: 100px;
+
+}
+
+.blue-cube-2 {
+    position: absolute;
+    top: 110px;
+    left: 112px;
+
+}
+
+.header-2 h1 {
+    position: absolute;
+    top: 109px;
+    left: 164px;
+
+}
+
+.blue-cube-3{
+    position: absolute;
+    top: 164px;
+    left: 226px;
+
+}
+.header-3 h1{
+    position: absolute;
+    top:  160px;
+    left:  150px;
+
+}
+.second-block{
+    position: relative;
+    border-right: 1px solid blue;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 10px 0;
+    margin: 10px;
+
+}
+.blue-cube-4{
+    position: absolute;
+    top:74px;
+    left:  150px;
+
+}
+.header-4{
+    position: absolute;
+    top:  70px;
+    left:  100px;
+    z-index: 1;
+
+}
+.third-block {
+
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    padding: 10px 0;
+
+}
+
+.blue-cube-5{
+    position: absolute;
+    top:82px;
+    left:  113px;
+}
+.header-5{
+    position: absolute;
+    top:  70px;
+    left:  100px;
+    z-index: 1;
+}
